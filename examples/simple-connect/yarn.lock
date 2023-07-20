@@ -10580,8 +10580,23 @@ usb@^1.6.0:
     prebuild-install "^5.3.3"
 
 "use-wallet@link:../..":
-  version "0.0.0"
-  uid ""
+  version "0.13.5"
+  dependencies:
+    "@aragon/provided-connector" "^6.0.8"
+    "@typescript-eslint/parser" "^4.1.0"
+    "@web3-react/core" "6.1.9"
+    "@web3-react/fortmatic-connector" "6.1.6"
+    "@web3-react/frame-connector" "6.0.9"
+    "@web3-react/injected-connector" "6.0.7"
+    "@web3-react/ledger-connector" "6.1.9"
+    "@web3-react/portis-connector" "6.1.6"
+    "@web3-react/torus-connector" "6.1.7"
+    "@web3-react/walletconnect-connector" "6.2.4"
+    "@web3-react/walletlink-connector" "6.2.5"
+    jsbi "^3.1.4"
+    prop-types "^15.7.2"
+    regenerator-runtime "^0.13.7"
+    rollup-plugin-image-files "^1.4.2"
 
 use@^3.1.0:
   version "3.1.1"
@@ -11322,9 +11337,9 @@ wide-align@^1.1.0:
     string-width "^1.0.2 || 2"
 
 word-wrap@~1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
-  integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.4.tgz#cb4b50ec9aca570abd1f52f33cd45b6c61739a9f"
+  integrity sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==
 
 wrap-ansi@^5.1.0:
   version "5.1.0"
